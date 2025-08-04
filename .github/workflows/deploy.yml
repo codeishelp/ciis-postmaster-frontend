@@ -29,8 +29,7 @@ jobs:
       - name: Prepare deployment folder
         run: |
           mkdir deploy-dir
-          shopt -s extglob
-          cp -r !(deploy-dir|.git) deploy-dir/
+          cp -r .next public package.json package-lock.json server.js next.config.ts deploy-dir/ || true
           
       - name: Show contents of deploy-dir
         run: |
