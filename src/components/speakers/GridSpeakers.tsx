@@ -24,7 +24,7 @@ export const GridSpeakers = async () => {
     >
 
       <div className={`text-center mb-12 animate-fade-in-up`}>
-        <h2 className='font-title text-4xl font-extrabold uppercase pb-2'>Ponentes EDITADO</h2>
+        <h2 className='font-title text-4xl font-extrabold uppercase pb-2'>Ponentes NORMAL</h2>
         <p className='text-lg sm:text-xl leading-tight text-zinc-300'>Egresados de la Escuela Profesional de Ingeniería en Informática y Sistemas</p>
       </div>
 
