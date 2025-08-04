@@ -3,8 +3,8 @@ import { Footer, Header } from "@/components";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - POSTMASTER',
-    default: 'XII POSTMASTER',
+    template: '%s - LAYOUT',
+    default: 'TEST LAYOUT',
   },
   description: "Encuentro de egresados de la Escuela Profesional de Ingeniería en Informática y Sistemas",
 };
