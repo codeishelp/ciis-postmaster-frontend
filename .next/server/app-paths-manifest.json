@@ -1,5 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/inscripcion/page": "app/inscripcion/page.js",
+  "/inscripcion/success/page": "app/inscripcion/success/page.js",
   "/(postmaster)/page": "app/(postmaster)/page.js"
 }

@@ -32,6 +32,18 @@
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/inscripcion",
+      "regex": "^/inscripcion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/inscripcion(?:/)?$"
+    },
+    {
+      "page": "/inscripcion/success",
+      "regex": "^/inscripcion/success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/inscripcion/success(?:/)?$"
     }
   ],
   "dataRoutes": [],
