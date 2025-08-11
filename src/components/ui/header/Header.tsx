@@ -64,28 +64,28 @@ export const Header = () => {
           <Link href="#ponentes" className={styles.link} onClick={closeMenu}>PONENTES</Link>
           <Link href="#horario" className={styles.link} onClick={closeMenu}>HORARIO</Link>
           
-           {/*<div className={styles['mobile-only']}>
-            <Link href="#" className={styles.link} onClick={closeMenu}>INSCRIBETE</Link>
-          </div>*/} 
+           <div className={styles['mobile-only']}>
+            <Link href="/inscripcion" className={styles.link} onClick={closeMenu}>INSCRIBETE</Link>
+          </div> 
         </nav>
 
-        {/* <div className={styles['header-right']}>
+        <div className={styles['header-right']}>
           <Link
-            href="#INSCRIBIRTE"
+            href="/inscripcion"
             className={`${styles.link} font-title text-4xl font-extrabold pb-2`}
           >
             INSCRIBETE
           </Link>
-        </div> */}
+        </div>
 
         
-        <div className={styles['header-right']}>
+        {/* <div className={styles['header-right']}>
           <div
             className={`${styles.linkNoactive} font-title text-4xl font-extrabold pb-2`}
           >
             PROXIMAMENTE
           </div>
-        </div>
+        </div> */}
 
 
       </div>
