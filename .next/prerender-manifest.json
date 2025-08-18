@@ -54,37 +54,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/inscripcion": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/inscripcion",
-      "dataRoute": "/inscripcion.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "2e3a685b734cd2f639bf55e606dd79b0",
-    "previewModeSigningKey": "ebce83130308aadd8bbb472a3a5a423dba71d87224510f0ffdbf9458a488a2f5",
-    "previewModeEncryptionKey": "32c6771165fef788bb900cbe0e45833768620adccd08a3c4ee4412bd05f9ea17"
+    "previewModeId": "625a11d0e17df61a4fa76251a0f87924",
+    "previewModeSigningKey": "5a3c710f61092a3648253b0e55874435dfc21273bef8fdc36c18a6c64e5b8399",
+    "previewModeEncryptionKey": "dbde5ee875716d4ef0a03820072842663e361bd4a1573776eb2c96cbcfcb083a"
   }
 }
